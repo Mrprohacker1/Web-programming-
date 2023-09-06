@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TIME TABLE</title>
+	<style type="text/css">table,tr,th,td{border:2px solid black;} th,td{padding:5px ;text-align: center;</style>
+</head>
+<body>
+	<table style=" margin-left: auto;margin-right:auto ;">
+		<tr>
+			<th colspan="10"> 
+				<h2 style="background-color: yellowgreen;">TIME TABLE FOR COMPUTER SCIENCE AND DESIGN</h2>
+			</th>
+		</tr>
+		<tr>
+			<th bgcolor="blue">DAY/TIME</th>
+			<th>9.00-10.00</th>
+			<th>10.00-11.00</th>
+			<th>11.00-11.15</th>
+			<th>11.15-12.15</th>
+			<th>12.15-1.15</th>
+			<th>1.15-2.00</th>
+			<th>2.00-2.55</th>
+			<th>2.55-3.50</th>
+			<th>3.50-4.45</th>
+			
+		</tr>
+		<tr>
+			<th>MON</th>
+			<td colspan="2">a</t>
+			<th rowspan="6">Tea break</th>
+
+		</tr>
+		<tr>
+			<th>TUE</th>
+		</tr>
+		<tr>
+			<th>WED</th>
+		</tr>
+		<tr>
+			<th>THU</th>
+		</tr>
+		<tr>
+			<th>FRI</th>
+		</tr>
+		<tr>
+			<th>SAT</th>
+		</tr>
+	</table>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<body>
+    <style type="text/css">
+        body{
+            background-color:rgb(173, 185, 125);
+        }
+</style>
+<h2>Computer Science And Design</h2>
+<ul>
+<li>Mathematical Foundation For Computing</li>
+<li>Design And Analysis Of Algorithm</li>
+<li>Microcontroller And Embedded System</li>
+<li>Operating System</li>
+<li>Web Programing</li>
+</ul>
+
+<h2>Mechanical Engineering</h2>
+<ul>
+<li>Fluid Mechanics</li>
+<li>Thermodynamics</li>
+<li>Material Science </li>
+<li>Engineering Drawing</li>
+</ul>
+
+<h2>Civil Engineering</h2>
+<ul>
+<li>Geotechnical Engineering</li>
+<li>Structural Engineering</li>
+<li>Transport Engineering</li>
+<li>Water Engineering</li>
+<li>Earthquake Engineering</li>
+</ul>
+
+<h2>Electrical Engineering</h2>
+<ul>
+<li>Power Systems</li>
+<li>Control Systems</li>
+<li>Signals and Systems</li>
+<li>Electrical Machines</li>
+<li>Microprocessors</li>
+</ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Form</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			background-color:rgb(227, 198, 156);
+			color:rgb(135, 75, 75);
+		}
+		table{
+			background-color:rgb(196, 180, 139);
+			box-shadow: 10px 10px 10px 10px  rgb(232, 227, 228);
+        }
+        label,span{
+        	font-weight: bold;
+        	font-size: 20px;
+        }
+		table,td,th,tr{
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			color: black;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<h1>Student Form</h1>	
+	<form>
+		<table >
+			<tr>
+				<td>
+					<label>First name :  </label>			
+				</td>
+				<td>
+					<input type="text" name="fname" placeholder="Firstname">
+					(max 50 characters are allowed)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Last name :   </label>
+				</td>
+				<td>
+					<input type="text" name="lname" placeholder="Lastname">
+					(max 50 characters are allowed)
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Mobile No. : </label>
+				</td>
+				<td>
+					<span>+91</span>
+					<input type="tel" name="mbno" placeholder="xxxxxxxxxx" size="10">
+					(max 10 characters are allowed)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>	Gender:</label>
+				</td>
+				<td>
+					<input type="radio" name="Male">Male
+					<input type="radio" name="Female">Female
+					<input type="radio" name="Others">Others
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Address : </label>			
+				</td>
+				<td>
+					<textarea name="text" rows="10" cols="50"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>State:</label>
+				</td>
+				<td>
+					<select id="State" name="State" autofocus="Select State">
+						<option value="Select State">Select State</option>
+					    <option value="Andhra Pradesh">Andhra Pradesh</option>
+					    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+					    <option value="Assam">Assam</option>
+					    <option value="Bihar">Bihar</option>
+					    <option value="Chhattisgarh">Chhattisgarh</option>
+					    <option value="Goa">Goa</option>
+					    <option value="Gujarat">Gujarat</option>
+					    <option value="Haryana">Haryana</option>
+					    <option value="Himachal Pradesh">Himachal Pradesh</option>
+					    <option value="Jharkhand">Jharkhand</option>
+					    <option value="Karnataka">Karnataka</option>
+					    <option value="Kerala">Kerala</option>
+				    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Country:</label>
+				</td>
+				<td>
+					<select id="Country" name="Country" autofocus="Select Country">
+					<option value="Select Country">Select Country</option>
+				    <option value="India">India</option>
+				    <option value="China">China</option>
+				    <option value="Pakistan">Pakistan</option>
+				    <option value="Bihar">Bihar</option>
+				    <option value="Japan">Japan</option>
+				    <option value="Bangladesh">Bangladesh</option>
+				    <option value="Afghanistan">Afghanistan</option>
+				    <option value="Iran">Iran</option>
+				    <option value="Nepal">Nepal</option>
+				    <option value="Srilanka">Srilanka</option>
+				    <option value="Malaysia">Malaysia</option>
+				    <option value="Indonesia">Indonesia</option>
+				    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Hobbies:</label>
+				</td>
+				<td>
+					<input type="checkbox" id="Hobbies" name="Hobbies1" value="Drawing">
+				    <label for="Hobbies1"> Drawing</label><br>
+				    <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Singing">
+				    <label for="Hobbies2"> Singing</label><br>
+				    <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Dancing">
+				    <label for="Hobbies"> Dancing</label><br>
+				    <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Sketching">
+				    <label for="Hobbies"> Sketching</label><br>
+				    <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Others">
+				    <label for="Hobbies"> Others</label>
+				    <input type="text" placeholder="Ex:Teaching" First Name="">(max 50 characters are allowed)</td></tr><br></br>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Course selected For:</label>
+				</td>
+				<td>
+					<input type="radio" id="BCA" name="BCA" value="BCA(Bachelor Of Computer Application)">
+					<label for="BCA">BCA(Bachelor Of Computer Application)</label><br>
+					<input type="radio" id="B.Com" name="Bachelor Of Commerce" value="B.Com(Bachelor Of Commerce)">
+				    <label for="B.Com">B.Com(Bachelor Of Commerce)</label><br>
+				    <input type="radio" id="B.Sc" name="B.Sc" value="B.Sc(Bachelor Of Science)">
+				    <label for="B.Sc">JB.Sc(Bachelor Of Science)</label><br>
+			 	    <input type="radio" id="BA" name="BA" value="BA(Bachelor Of Arts)">
+			        <label for="BA">BA(Bachelor Of Arts)</label><br>
+			        <input type="radio" id="MCA" name="MCA" value="MCA(Master Of Computer Application)">
+			        <label for="MCA">MCA(Master Of Computer Application)</label><br>
+			        <input type="radio" id="M.Com" name="M.com" value="M.Com(Master Of Commerce)">
+			        <label for="M.Com">M.Com(Master Of Commerce)</label><br>
+			        <input type="radio" id="M.Sc" name="M.Sc" value="M.Sc(Master Of Science)">
+			        <label for="M.Sc">M.Sc(Master Of Science)</label><br>
+			  		<input type="radio" id="MA" name="MA" value="MA(Master Of Arts)">
+				    <label for="MA">MA(Master Of Arts)</label><br></br>
+			  		
+			 	   
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+				</td>
+				<td>
+					<input type="submit" value="Submit">
+					 <input type="reset">
+				</td>
+			</tr>
+
+		</table>		
+	</form>
+</body>
+</html>program 4 <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Frames
+        </title>
+        <style type="text/css">
+            
+        </style>
+    </head>
+    <body>
+        <iframe height="30%" width="100%" title="Iframe Example" src="frame1.html"></iframe>
+        <div style="float:left ;width: 20%;border: 1px solid black; text-align: center; height: 430px; background-color: yellow;">
+            <h1>Branches</h1>
+            <h4><a href="frame_cs.html" target="main-fr">Computer Science And Engineering</a></h4> 
+            <h4><a href="frame_EC.html" target="main-fr">Electronics And Communication Engineering</a></h4> 
+            <h4><a href="frame_civil.html" target="main-fr">Civil Engineering</a></h4> 
+            <h4><a href="frma_EEE.html" target="main-fr">Electrical And Electronics Engineering</a></h4> 
+            <h4><a href="frame_ME.html" target="main-fr">Mechanical Engineering</a></h4> 
+
+
+
+
+        </div>
+        <div style="float:left ;">
+            <iframe height="430px" width="327%" style="flex: 1;" name="main-fr" src="frame_default.html"></iframe>
+        </div>
+           
+    </body>
+</html>cs <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Computer Science And Engineering</h1>
+	<p style="text-align: justify; font-size: 20px;">Computer science and engineering (CSE) is an academic program at many universities which comprises scientific and engineering aspects of computing. CSE is also a term often used in Europe to translate the name of engineering informatics academic programs.</p>
+</body>
+</html>ec <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Electronics And Communication Engineering</h1>
+	<p style="text-align: justify; font-size: 20px;">Electronics and communication engineer use their knowledge, creativity and analytical skills to design, develop and oversee the production of electronic and communication tools and systems. Here are a few activities an electronics and communication engineer perform:
+		<ul style="text-align: left;">
+			<li>Do research, design and develop electronic equipment used in different systems</li>
+			<li>Look after the manufacturing of communication and broadcast systems</li>
+			<li>Conceptualise and design electronic equipment like radio, television, computer</li>
+			<li>Develop control and communications systems</li>
+			<li>Write usage recommendations</li>
+			<li>Test designs in order to ensure efficiency, cost-effectiveness and safety of new prototypes</li>
+			<li>Test and evaluate electronic and communication products</li>
+			<li>Plan and execute electronics and communication project</li>
+		</ul>
+	</p>
+</body>
+</html>civil <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Civil Engineering</h1>
+	<p style="text-align: justify; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and railways.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Civil engineering is traditionally broken into a number of sub-disciplines. It is considered the second-oldest engineering discipline after military engineering,and it is defined to distinguish non-military engineering from military engineering.Civil engineering can take place in the public sector from municipal public works departments through to federal government agencies, and in the private sector from locally based firms to global Fortune 500 companies.</p>
+</body>
+</html>eee <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Electrical And Electronics Engineering</h1>
+	<p style="text-align: justify; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electrical and Electronics Engineering (EEE) is a popular engineering course that imparts knowledge related to electrical and machine technology, circuit analysis, telecommunication systems, power engineering and its related industries. A four-year undergraduate course, EEE also emphasises the manufacture and design of electrical devices and the integration of their components into complex systems. Students study a wide range of disciplines, like signal processing, control systems, radio frequency designs, electrical machines, microprocessors in this course</p>
+</body>
+</html>me <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Mechanical Engineering</h1>
+	<p style="text-align: justify; font-size: 20px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technically, mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mechanical engineers make a difference. That's because mechanical engineering careers center on creating technologies to meet human needs. Virtually every product or service in modern life has probably been touched in some way by a mechanical engineer to help humankind.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This includes solving today's problems and creating future solutions in health care, energy, transportation, world hunger, space exploration, climate change, and more.</p>
+</body>
+</html>default <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-color:lightpink;
+	}
+</style>
+<body>
+	<h1>Branch details appears here</h1>
+</body>
+  </html>
+
+
+ Program 5
+<DOCTYPE html>
+<html>
+<body>
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+<style>
+body {background-color:powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<head>
+  <link reel="stylesheet"href="styles.css">
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+Program 6
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mouse</title>
+<style type="text/css">
+h1{color:brown;font-family:lucida;}
+h2{text-decoration:overline;}
+h1:hover{color:green;font-family:mistral;}
+h2:hover{text-decoration:line-through;}
+h3:hover{background-color:cyan;}
+h4:hover{font-family:magneto;color:green;font-size:20pt}
+h5:hover{font-size:20pt;}
+</style>
+</head>
+<body>
+<h1>Mysore University</h1>
+<h2>This text changes text decoration</h2>
+<h3>this text chages background color</h3>
+<h4>this text chages in font family</h4>
+<h5>this text chages in font size</h5>
+</body>
+</html>
+
+Program 7
+<!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body style = "text-align: center; font-size: 20px;">  
+<h1>Factorial no. </h1>  
+Enter a number: <input id = "num">  
+<br><br>  
+<button onclick = "fact()"> Factorial </button>  
+<p id = "res"></p>  
+<script>  
+function fact(){  
+var i, num, f;  
+f = 1;  
+num = document.getElementById("num").value;   
+for(i = 1; i <= num; i++)    
+{  
+ff = f * i;  
+}  
+ii = i - 1;    
+document.getElementById("res").innerHTML = "The factorial of the number " + i + " is: " + f ; 
+}  </script>  
+</body>  
+</html> 
+Program 8
+
+<!-- Create a simple Program to build the Calculator in JavaScript using with HTML and CSS web languages. -->  
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>  
+<title> JavaScript Calculator </title>  
+  
+<style>  
+h1 {  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+  
+#clear{  
+width: 270px;  
+border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: red;  
+}  
+  
+.formstyle  
+{  
+width: 300px;  
+height: 530px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 20px;  
+}  
+  
+  
+  
+input  
+{  
+width: 20px;  
+background-color: green;  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;  
+}  
+  
+  
+#calc{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}  
+  
+</style>  
+  
+</head>  
+<body>  
+<h1> Calculator Program in JavaScript </h1>  
+<div class= "formstyle">  
+<form name = "form1">  
+      
+    <!-- This input box shows the button pressed by the user in calculator. -->  
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+  <!-- Display the calculator button on the screen. -->  
+  <!-- onclick() function display the number prsses by the user. -->  
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+    <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+    <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br>   
+  <!-- Display the Cancel button and erase all data entered by the user. -->  
+  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br>   
+ </form>  
+</div>  
+</body>  
+</html>   
+Program 9
+<!DOCTYPE html>
+<html>
+<body onload="startTime()">
+<h2>Digial Clock</h2>
+<div id="txt"></div>
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+</body>
+</html>
+Program 10
+
+Program 11
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating mailing system</title>
+	<style>
+		legend {
+			display: block;
+			padding-left: 2px;
+			padding-right: 2px;
+			border: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function validate() {
+                                           var user = document.getElementById("e").value;
+			var user2 = document.getElementById("e");
+			var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			if (re.test(user)) {
+				alert("done");
+				return true;
+			}
+			else {
+				user2.style.border = "red solid 3px";
+				return false;
+			}
+		}
+	</script>
+</head>
+<body bgcolor="cyan">
+	<center>
+		<h1>Email Registration</h1>
+		<form>
+			<fieldset style="width:300px">
+				<legend>Registation Form</legend>
+				<table>
+					<tr>
+						<input type="text"
+							placeholder="username"
+							maxlength="10">
+					</tr>
+					<br>
+					<br><br>
+					<tr>
+						<input type="email"
+							placeholder="username@gmail.com" id="e">
+					</tr>
+					<br><br>
+					<tr>
+						<input type="password" placeholder="password">
+					</tr>
+					<br><br>
+					<tr>
+						<input type="text" placeholder="contact">
+					</tr>
+					<br>
+					<br><br>
+					<tr><input type="submit"
+						onclick="validate()" value="create">
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</center>
+</body>
+</html>
+
+
+12.	Write a JavaScript code that displays text “TEXT-GR OWING” with increasing font size in the interval of 100ms in RED COLOR, when the font size reaches 50pt it displays “TEXT-SHRINKING” in BLUE color. Then the font size decreases to 5pt
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript - Grow & Shrink Text</title>
+<script language = "JavaScript"> var c = 0, t1;
+function start()
+
+{
+t1 = window.setInterval("incr()", 100);
+}
+function incr() { c = c + 1;
+t.innerHTML = "TEXT-GROWING : " + c + "pt";
+t.style.fontSize = c + "pt"; window.status = c;
+if (c > 50) { window.clearTimeout(t1);
+alert("Font Size Reached 50pt. Text will Now Shrink"); t1 = window.setInterval("decr()", 100);
+}
+t.style.color = "red";
+}
+function decr() { c = c - 1;
+t.innerHTML = "TEXT-SHRINKING: " + c + "pt";
+t.style.fontSize = c + "pt"; window.status = c;
+if (c == 5) { window.clearTimeout(t1);
+}
+t.style.color = "blue";
+}
+</script>
+</head>
+<body bgcolor="#ffdead" onload="start()">
+<center>
+<p id="t"></p>
+</center>
+</body>
+</html>
+ 
+
+12.	Write a JavaScript code that displays text “TEXT-GR OWING” with increasing font size in the interval of 100ms in RED COLOR, when the font size reaches 50pt it displays “TEXT-SHRINKING” in BLUE color. Then the font size decreases to 5pt
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript - Grow & Shrink Text</title>
+<script language = "JavaScript"> var c = 0, t1;
+function start()
+
+{
+t1 = window.setInterval("incr()", 100);
+}
+function incr() { c = c + 1;
+t.innerHTML = "TEXT-GROWING : " + c + "pt";
+t.style.fontSize = c + "pt"; window.status = c;
+if (c > 50) { window.clearTimeout(t1);
+alert("Font Size Reached 50pt. Text will Now Shrink"); t1 = window.setInterval("decr()", 100);
+}
+t.style.color = "red";
+}
+function decr() { c = c - 1;
+t.innerHTML = "TEXT-SHRINKING: " + c + "pt";
+t.style.fontSize = c + "pt"; window.status = c;
+if (c == 5) { window.clearTimeout(t1);
+}
+t.style.color = "blue";
+}
+</script>
+</head>
+<body bgcolor="#ffdead" onload="start()">
+<center>
+<p id="t"></p>
+</center>
+</body>
+</html> 
